@@ -1,7 +1,9 @@
 <html>
 <head>
-You are here:<img src="images/13.png" width="20" height="15"> 
-<a href="index.html">HOME</a><img src="images/13.png" width="20" height="15">
+You are here:<img src="images/13.png" width="20" height="15"> 
+
+<a href="index.html">HOME</a><img src="images/13.png" width="20" height="15">
+
 <strong>ADMIN PAGE</strong>
 <style>
 
@@ -59,6 +61,16 @@ font-size:40px;
 </div>
 </table>
 <h2 align="center"> ADMIN LOGIN</h2>
+<p style="color:red"> YOU CAN LOGIN TO CHECK COMPLAINT</p>
+<form action='#' method='post'>
+<table cellspacing='5'  align="center">
+<tr><td>User name:</td><td><input type='text' name='name'/></td></tr>
+<tr><td>Password:</td><td><input type='password' name='pwd'/></td></tr>
+<tr><td></td><td><input type='submit' name='submit' value='Submit'/><input type='submit' name='submit' value='Cancel'/></td></tr>
+</table>
+
+</form>
+<h2 align="center"> AGENT LOGIN</h2>
 <p style="color:red"> YOU CAN LOGIN TO COMPLAIN</p>
 <form action='#' method='post'>
 <table cellspacing='5'  align="center">
